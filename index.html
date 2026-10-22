@@ -140,7 +140,7 @@
       <div class="body">
         <span class="index">01</span>
         <h2>Fonts</h2>
-        <p class="text">Rethink Sans, our primary typeface, with Zilla Slab and PP Editorial New as our serifs. The download includes Rethink Sans and Zilla Slab (SIL Open Font Licence); PP Editorial New is licensed from Pangram Pangram.</p>
+        <p class="text">Rethink Sans, our primary typeface, with Zilla Slab and PP Editorial New as our serifs.</p>
         <div class="foot">
           <span class="meta" data-meta>ZIP</span>
           <span class="cta">Download <span class="icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none"><path d="M8 3v9M4 8l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
@@ -158,7 +158,7 @@
       <div class="body">
         <span class="index">02</span>
         <h2>Logos</h2>
-        <p class="text">The humyn (labs) lockup, the (humyn) mark and the wordmark in orange, black and white. SVG and transparent PNG.</p>
+        <p class="text">Humyn Labs logos in SVG, PNG and JPG, plus favicons.</p>
         <div class="foot">
           <span class="meta" data-meta>ZIP</span>
           <span class="cta">Download <span class="icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none"><path d="M8 3v9M4 8l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
@@ -195,8 +195,8 @@
      The page converts it to a direct-download link automatically.
      ============================================================ */
   var MEDIA_KIT = {
-    fonts:     { url: "https://drive.google.com/file/d/1878E1-hvD6sT1dLCbAD-LTOhNuyV1dW6/view", meta: "ZIP · 1.2 MB" },
-    logos:     { url: "https://drive.google.com/file/d/1EgO_00jjTdzIjU5ph3LC8ySmymjligod/view", meta: "ZIP · 0.6 MB" },
+    fonts:     { url: "https://drive.google.com/drive/folders/19iKHBB1hkSvC1x3lcP2db0NWV8sYspKt?usp=drive_link", meta: "Google Drive folder" },
+    logos:     { url: "https://drive.google.com/drive/folders/1SL2G0akK7_429QpcvWD-sXPFsNny2V0P?usp=drive_link", meta: "Google Drive folder" },
     brandbook: { url: "https://drive.google.com/file/d/1v6fWTTfZPkPiH2YBQbmAbzR9C26jkO6h/view?usp=drive_link", meta: "PDF · 71 MB" }
   };
 
@@ -226,7 +226,7 @@
       else {
         // Drive can't direct-download a folder, so open it in a new tab instead
         card.target = "_blank"; card.rel = "noopener";
-        card.querySelector(".cta").firstChild.textContent = "Open in Drive ";
+        card.querySelector(".cta").firstChild.textContent = "Download ";
         card.querySelector(".cta .icon").innerHTML = '<svg viewBox="0 0 16 16" fill="none"><path d="M5 11 11 5M6 5h5v5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
       }
       card.addEventListener("click", function () {
